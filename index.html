@@ -8,33 +8,293 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- ---font awsome -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- ----google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="banner">
+   <section class="header">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">
+                  <i class="fas fa-book-reader fa-3x mx-3 text-white"></i>Books</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">COURSE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">PRICE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">PAGES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">FACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">ABOUT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       </div>
+      <div class="banner">
         <div class="container">
-            <div class="row  justify-content-evenly">
-                <div class="col-md-8  text-center ">
-                <div class="banner-sec bg-light">
-                 <h1 class=" pt-5 pb-3">JASWINDER SINGH</h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptates.<br> Possimus nihil ratione dignissimos repellat velit <br>rem tempora ex dolorum! Ducimus, ipsa fugiat.</p>
-                 <img src="./images/pic1.jpg" class="pb-5" alt="">
+            <div class="row text-center">
+ <div class="col-md-7 col-sm-12 banner-sec">
+     <h6>AUTHOR DAILY TUTION</h6>
+     <h1 class="pb-2">EXCITING ADVENTURE</h1>
+     <p>
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ad molestiae laudantium saepe hic quae?
+     </p>
+     <button class="btn btn-light px-5 py-2 ">By now for $5.99</button>
+ </div>
+ <div class="col-md-5 col-sm-12">
+     <img src="./images/header-img.png" class="img-fluid" alt="">
+ </div>
+            </div>
+        </div>
+      </div>
+      
+   </section>
+   <main>
+       <section class="section-1">
+           <div class="container text-center">
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="pray">
+                           <img src="./images/pexels-photo-1904769.jpeg" class="img-fluid" alt="pray">
+                       </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="panel text-left">
+                           <h1>Mr.Devid Smith</h1>
+                           <p class="pt-4">
+                               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione omnis nostrum doloribus rem nobis odio, inventore obcaecati corrupti aliquam quos repellat est officiis voluptatum maxime provident minima, illo iure expedita?
+                           </p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, veniam ipsa. Maiores modi qui dignissimos quasi optio rerum eligendi, in voluptatem facere, facilis porro. Aliquam odit mollitia provident est vero?</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <section class="section-2 container-fluid">
+           <div class="cover">
+               <div class="content text-center">
+                <h1>Some feature That Made us Unique</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias voluptate ipsa blanditiis, perspiciatis culpa saepe.</p>
+               </div>
+           </div>
+           <div class="container-fluid text-center">
+               <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                 <div class="rect">
+                     <h1>2345</h1>
+                     <p>Happy Client</p>
+                 </div>
+                 <div class="rect">
+                    <h1>2345</h1>
+                    <p>Cup Coffe</p>
+                 </div>
+                 <div class="rect">
+                    <h1>2345</h1>
+                    <p>Tickets Submitted</p>
+                 </div>
+                 <div class="rect">
+                    <h1>2345</h1>
+                    <p>Total Projects</p>
+                 </div>
+               </div>
+           </div>
+
+           <div class="purchase text-center">
+               <h1 class="pt-5">Purchase Whatever You Want</h1>
+               <p class="pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, vero.</p>
+               <div class="container cards">
+                   <div class="d-flex flex-row justify-content-center">
+                       <!-- FIRST CARD -->
+                       <div class="card">
+                           <div class="card-body">
+                               <div class="title">
+                                   <h5 class="card-title pt-5">PDF</h5>
+                               </div>
+                               <p class="card-text">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, blanditiis? 
+                               </p>
+                               <div class="pricing">
+                                   <h1>$77.99</h1>
+                                   <a href="#" class="btn btn-dark px-5 py-2 mb-5 mt-5">Purchase Now</a>
+                               </div>
+                           </div>
+                       </div>
+                          <!-- second CARD -->
+                       <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title pt-5">E-book</h5>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, blanditiis? 
+                            </p>
+                            <div class="pricing">
+                                <h1>$77.99</h1>
+                                <a href="#" class="btn btn-dark px-5 py-2 mb-5 mt-5">Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third CARD -->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title pt-5">Print Copy</h5>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, blanditiis? 
+                            </p>
+                            <div class="pricing">
+                                <h1>$77.99</h1>
+                                <a href="#" class="btn btn-dark px-5 py-2 mb-5 mt-5">Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+           </div>
+           
+       </section>
+<!-- section3 -->
+       <section class="section-3 container-fluid p-0">
+<div class="row text-center">
+   <div class="col-md-12 col-sm-12">
+       <h1>Download Our Apps For All Platforms</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ullam quas omnis laborum, culpa vitae id et<br> inventore voluptatem dignissimos. Odit, impedit! Minus quo autem dolor ullam voluptatibus<br> repellendus? Eligendi consectetur necessitatibus aliquam delectus explicabo?</p>
+   </div>
+</div>
+<div class="platform row justify-content-center">
+    <div class="col-md-3 col-sm-12 text-right">
+        <div class="desktop shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+             <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+             <div class="text text-left">
+                 <h3 class="m-0 pt-1 px-3">Desktop</h3>
+                 <p class="p-1 m-0 px-3">On Website</p>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-12 text-left">
+     <div class="desktop shadow-lg">
+         <div class="d-flex flex-row justify-content-center">
+          <i class="fas fa-mobile fa-3x py-2 pr-3"></i>
+          <div class="text text-left">
+              <h3 class="m-0 pt-1 px-3">On Mobile</h3>
+              <p class="p-0 m-0 px-3">Play Store</p>
+          </div>
+         </div>
+     </div>
+    </div>
+</div>
+</section>
+<section class="section-4">
+    <div class="container text-center">
+        <h1 class="text-dark">What Our Leader Say Us</h1>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="team row">
+        <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg ">
+                <div class="card-img-top">
+                    <img src="./images/UI-face-3.jpg" alt="member" class="img-fluid">
                 </div>
+                <div class="card-body bg-white">
+                    <h3 class="card-title">Jackie chan</h3>
+                    <p class="card-text pt-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis dolores sed culpa quis, deserunt totam molestias accusantium?</p>
+                    <a href="" class="text-secondary text-decoration-none">Go SomeWhere</a>
+                    <p class="text-black-50">CEO at Google</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="footer">
-        <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col-md-12  text-center">
-                    <div class="footer-sec bg-dark">
-                    <p class="text-white pt-5 pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam architecto quod minus neque assumenda accusamus voluptatibus nisi nemo excepturi, aperiam, laudantium quisquam. Exercitationem eveniet temporibus, repellat impedit nulla quis ducimus. Sed, aliquam. Sed modi cum, commodi vel possimus exercitationem nemo!</p>
+        <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                    <img src="./images/UI-face-4.jpg" alt="member" class="img-fluid">
                 </div>
+                <div class="card-body bg-white">
+                    <h3 class="card-title">Olivia mukhi</h3>
+                    <p class="card-text pt-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis dolores sed culpa quis, deserunt totam molestias accusantium?</p>
+                    <a href="" class="text-secondary text-decoration-none">Go SomeWhere</a>
+                    <p class="text-black-50">CEO at Google</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                    <img src="./images/UI-face-3.jpg" alt="member" class="img-fluid">
+                </div>
+                <div class="card-body bg-white">
+                    <h3 class="card-title">John Doe</h3>
+                    <p class="card-text pt-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis dolores sed culpa quis, deserunt totam molestias accusantium?</p>
+                    <a href="" class="text-secondary text-decoration-none">Go SomeWhere</a>
+                    <p class="text-black-50">CEO at Google</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- js/popover -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+</section>
+   </main>
+   <footer>
+<div class="container img-fluid p-0">
+    <div class="row text-left">
+<div class="col-md-5">
+    <h1 class="text-light">About Us</h1>
+    <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora facere aspernatur suscipit laudantium! </p>
+    <p class="pt-4 text-muted">Copyright all reserved</p><span>You Tube Tutorial</span>
+</div>
+<div class="col-md-5">
+    <h4 class="text-light">News Letter</h4>
+    <p class="text-muted">Stay-Updated</p>
+    <form action="form-inline">
+        <div class="col pl-0">
+            <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" placeholder="E-mail">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="col-md-2 col-sm-12">
+    <h4 class="text-light">Follow Us</h4>
+    <p class="text-muted">Let Us Be Social</p>
+    <div class="column">
+        <i class="fab fa-facebook"></i>
+        <i class="icon fab fa-instagram"></i>
+        <i class="icon fab fa-twitter"></i>
+        <i class="icon fab fa-youtube"></i>
+
+    </div>
+</div>
+    </div>
+</div>
+
+   </footer>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
